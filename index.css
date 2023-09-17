@@ -478,7 +478,7 @@ li {
 }
 
 .col-s:nth-child(2):hover{
-  background:url("https://cdn.pixabay.com/photo/2016/08/18/10/03/human-1602493_1280.jpg")
+  background:url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.regencyeducation.co.uk%2Fwp-content%2Fuploads%2F2020%2F01%2FStudent-uni-boy-e1579540507579.jpg&f=1&nofb=1&ipt=ba533c03e2997e0bbb1055af8d31f168011e56c55eee8289b6f2adcc606dc5f6&ipo=images")
   no-repeat center center/cover;
 }
 .col-l .col-1{
@@ -598,3 +598,133 @@ li {
   }
 }
 
+/* Responsive */
+
+@media (max-width:450px) {
+  html,
+  body{
+      width: 100%;
+      overflow-x: hidden;
+  }
+
+  .c-logo{
+    width:auto;
+  }
+
+  .part2{
+    width: auto;
+  }
+
+  .items-nav .c-logo img {
+    height: 3rem;
+}
+.items-nav .part2 img {
+  height: 1rem;
+}
+.uni-logo{
+  display: none;
+}
+
+.img-slider {
+    height: 18rem;
+    width: 100%;
+}
+
+.col-thumb {
+  text-align: center;
+  width: 100%;
+}
+
+.positive-rel ::before{
+  height: 70rem;
+}
+
+.news{
+  margin-top: 0rem;
+}
+
+.positive-rel .contain {
+  height: 70rem;
+}
+
+.heading {
+  text-align: center;
+}
+
+ .news .row {
+  display: block;
+}
+
+
+.col-l {
+  display: flex;
+  width: 92vw;
+  height: 40vh;
+  padding: 3% 0%;
+}
+
+.row h2{
+  font-size:1rem;
+}
+
+.head-text .btn-t {
+  width: 6rem;
+  height: 2rem;
+  margin: 17% 0%;
+}
+
+.col-s {
+  margin: 3% 8%;
+  display: flex;
+  width: 80vw;
+  height: 40vh;
+}
+
+.col-s .head-text:hover {
+  color: #000;
+  font-weight: 900;
+}
+
+.testimonial {
+  margin-top: 24rem;
+}
+
+.testimonial .row {
+  display: block;
+  height: 100%;
+}
+
+.column-c {
+  display: flex;
+  width: 92%;
+}
+
+.abt-us img {
+  height: 91%;
+  width: 124%;
+}
+
+.abt h5 {
+    font-size: 1rem;
+}
+
+.abt{
+text-align: center;
+}
+
+.copyright .row{
+  width: fit-content;
+}
+
+.f-links .column{
+    width: 90%;
+}
+
+.f-links .row{
+  display: grid;
+  grid-template-columns: 33% 33% 33%;
+}
+.abt-us .contain .column-c:nth-child(3){
+  justify-content: center;
+}
+}
